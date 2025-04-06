@@ -1,0 +1,210 @@
+@media (max-width:1200px){
+    .section_mobile_app{
+        max-width: 100%;
+    }
+}
+@media (max-width:1042px){
+    .action_order{
+        max-width: 100%;
+    }
+    .section_search_location img{
+        max-width: 110px;
+    }
+}
+@media (max-width:999px){
+    .img_section_mobile_app{
+        grid-row: 2;
+        grid-column: 1 span;
+        margin-top: 2rem;
+    }
+    .img_section_mobile_app img{
+        top: -17px;
+    }
+    .content_section_mobile_app{
+        grid-column: 2 span;
+    }
+    .content_section_mobile_app h4{
+        font-size: 36px;
+    }
+    .content_section_mobile_app p{
+        font-size: 15px;
+    }
+    .content_search_location h6{
+        font-size: 2rem;
+    }
+}
+@media (max-width:882px){
+    .header_bottom{
+        margin-top: 2rem;
+    }
+    .fixed_box_delivery{
+        top: -2rem;
+        left: -10rem;
+    }
+}
+
+@media (max-width:834px){
+    .navigation{
+        grid-template-columns: repeat(3,auto);
+    }
+    .navigation > ul{
+        display: none;
+    }
+    .link_navigation{
+        justify-self: center;
+    }
+    .menu_icon{
+        justify-self: flex-end;
+    }
+    .content_left_header_bottom h1{
+        font-size: 34px;
+        line-height: 50px;
+    }
+    .order_food{
+        margin-top: 2rem;
+    }
+    .btn_action_order{
+        max-width: 45%;
+        gap: 2px;
+        padding: 5px 10px;
+    }
+    .action_order{
+        justify-content: flex-start;
+        gap: 1.5rem;
+    }
+    .action_order > button{
+        padding: 16px;
+        font-size: 14px;
+    }
+    .fixed_box_delivery{
+        padding: 6px;
+        left: -5rem;
+        top: -1rem;
+    }
+    .fixed_box_delivery div span{
+        font-size: 19px;
+    }
+    .section_food{
+        margin-top: 4rem;
+    }
+    .section_search_location h6{
+        font-size: 28px;
+    }
+    .section_search_location img{
+        max-width: 110px;
+        max-height: 100px;
+    }
+    .content_search_location form{
+        width: 93%;
+    }
+    .grid_section_footer{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .grid_section_footer .link_footer:nth-child(2){
+        justify-self: center;
+    }
+    .info_site_footer{
+        grid-row: 2;
+        grid-column: 3 span;
+        justify-self: center;
+        margin-top: 2rem;
+    }
+}
+@media (min-width:835px){
+    .menu_icon{
+        display: none;
+    }
+}
+@media (max-width:676px){
+    .header_bottom{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .content_left_header_bottom{
+        width: 100%;
+        text-align: center;
+    }
+    .content_left_header_bottom p{
+        max-width: 100%;
+        margin: 1.5rem 0;
+    }
+    .content_left_header_bottom h1{
+        font-size: 36px;
+        line-height: 54px;
+    }
+    .order_food_desktop{
+        display: none;
+    }
+    .order_food_mobile{
+        margin-top: 3.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fixed_box_delivery{
+        position: static;
+        width: 30%;
+    }
+    .action_order{
+        width: 50%;    
+    }
+    .btn_action_order{
+        font-size: 15px;
+        align-self: center;
+    }
+    .action_order > button{
+        padding: 9px;
+    }
+    .section_mobile_app{
+        border-radius: 500px 500px 0 0;
+        max-width: 100%;
+    }
+    .content_section_mobile_app{
+        margin-top: 6rem;
+        text-align: center;
+    }
+    .content_section_mobile_app p{
+        max-width: 100%;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .img_section_mobile_app{
+        grid-column: 2 span;
+        justify-self: center;
+    }
+    .img_section_mobile_app img{
+        max-width: 400px;
+        top: -23px;
+    }
+    .content_search_location h6{
+        font-size: 20px;
+    }
+    .content_search_location p{
+        font-size: 12px;
+    }
+    .first_img{
+        top: 5%;
+    }
+}
+@media (min-width:677px){
+    .order_food_mobile{
+        display: none;
+    }
+}
+@media (max-width:550px){
+    .section_search_location img{
+        max-width: 84px;
+        max-height: 93px;
+    }
+    .first_img{
+        top: 6%;
+    }
+}
+@media (max-width:353px){
+    .first_img{
+        top: 3%;
+    }
+    .second_img{
+        left: 32% !important;
+    }
+}
