@@ -8,6 +8,13 @@ body {
   align-items: center;
   height: 100vh;
   direction: ltr;
+  position: relative;
+}
+
+.logo-img {
+  position: absolute;
+  top: 17px;
+  left: 185px;
 }
 
 .container {
